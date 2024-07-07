@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, Segoe UI, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #FFA85A;
+  
+  margin-top: 70px;
+}
+
+
+/* nav bar */
+
+
+
+nav {
+  height: 50px;
+  background-color: #EBEBEB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sec1 {
+  margin-right: 20px
+}
+
+.logo {
+  width: 150px;
+  margin-left: 6px;
+}
+
+.sign-btn {
+  margin-right: 10px;
+  height: 30px;
+  width: 70px;
+  color: #222222;
+  background-color: #FFAE6C;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sign-btn:hover {
+  background-color: #D77F37;
+}
+
+
+/* finished nav bar */
+
+
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-h {
+  text-align: center;
+  font-size: 18px;
+  color: #313131;
+}
+
+.mantomart {
+  font-size: 22px;
+  color: #181818;
+}
+
+.points {
+  font-size: 16px;
+  color: #181818;
+  margin: 0 8px 10px 15px;
+}
+
+.discriptions {
+  font-size: 12px;
+  color: #313131;
+  margin: 0 8px 30px 20px;
+}
+
+
+
+
+@media (min-width: 700px) {
+  
+  .page-content {
+    width: 650px;
+  }
+  
+  .main-h {
+    font-size: 30px;
+  }
+  
+  .mantomart {
+    font-size: 34px;
+  }
+  
+  .discriptions {
+    margin: 0 8px 30px 28px;
+  }
+  
+  
+}
+
+
+/* footer */
+
+.dc-logo, .insta-logo, .twitter-logo {
+  width: 40px;
+}
+
+.social-btns {
+  background-color: #FFA85A;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.social-btns:hover {
+  background-color: #6F6F6F;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  
+}
+
+.c-mantomart-paragraph {
+  font-size: 14px;
+}
+
+
+@media (max-width: 600px) {
+  
+      .p-mailto, .or {
+      font-size: 10px;
+    }
+    
+    .dc-logo, .insta-logo, .twitter-logo {
+      width: 28px;
+    }
+    
+    .social-btns {
+      width: 28px;
+      height: 28px;
+      border-radius: 14px;
+    }
+    
+    
+    .c-mantomart-paragraph {
+     font-size: 10px;
+    }
+  
+}
