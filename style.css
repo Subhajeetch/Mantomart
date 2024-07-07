@@ -52,6 +52,16 @@ nav {
   background-color: #D77F37;
 }
 
+.logo-b {
+  width: 150px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #EBEBEB;
+}
+
 
 /* finish nav bar */
 
